@@ -1,0 +1,1038 @@
+fileFormatVersion: 2
+guid: 30fcbe2986abfa048b7d24aba285176d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1108038127028087365
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_0
+  - first:
+      213: 8193562601793172613
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_1
+  - first:
+      213: 6608624598899147453
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_2
+  - first:
+      213: 7293500032445402652
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_3
+  - first:
+      213: -4987818649573980660
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_4
+  - first:
+      213: 2609011915826883678
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_5
+  - first:
+      213: -7227960065213532282
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_6
+  - first:
+      213: -4677297906730909771
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_7
+  - first:
+      213: 3550172701479731499
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_8
+  - first:
+      213: -680893262632101331
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_9
+  - first:
+      213: -5738577448419030906
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_10
+  - first:
+      213: -7550509763325114580
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_11
+  - first:
+      213: 7590241999513582098
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_12
+  - first:
+      213: 7548121405085109319
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_13
+  - first:
+      213: 8327477882858999023
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_14
+  - first:
+      213: -4009461061062119135
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_15
+  - first:
+      213: 6528957252018479587
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_16
+  - first:
+      213: -1059467146416636316
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_17
+  - first:
+      213: -3716658741270020765
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_18
+  - first:
+      213: -7404962779318611701
+    second: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+      Overlays (1)_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a291f4eca806f00800000000000000
+      internalID: 1108038127028087365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584bec466c165b170800000000000000
+      internalID: 8193562601793172613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2ca470f0d86bb50800000000000000
+      internalID: 6608624598899147453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e453b03a7b73560800000000000000
+      internalID: 7293500032445402652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 113
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0603146d55b7cab0800000000000000
+      internalID: -4987818649573980660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c6f99a382153420800000000000000
+      internalID: 2609011915826883678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687fc36bd9021bb90800000000000000
+      internalID: -7227960065213532282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 112
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf30a0d556e61fb0800000000000000
+      internalID: -4677297906730909771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b210dfa234fb44130800000000000000
+      internalID: 3550172701479731499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 32
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6888ae6073a7c50b0800000000000000
+      internalID: -5738577448419030906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2743e3ef53373790800000000000000
+      internalID: -7550509763325114580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21af14c32e4f55960800000000000000
+      internalID: 7590241999513582098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cce9f1d6050c860800000000000000
+      internalID: 7548121405085109319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec8bba7305219370800000000000000
+      internalID: 8327477882858999023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121b1a278688b58c0800000000000000
+      internalID: -4009461061062119135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1a54067048b9a50800000000000000
+      internalID: 6528957252018479587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46eb3ae5e340c41f0800000000000000
+      internalID: -1059467146416636316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dff370196cb6cc0800000000000000
+      internalID: -3716658741270020765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0199bbd5994c3990800000000000000
+      internalID: -7404962779318611701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11521353ff2a4c48b5e23c0ca11a9bc
+      internalID: 358287640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb11fdec426cad42a2a013f743039ef
+      internalID: 1433452685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d122702f81666440bbb9a166fc6cb75
+      internalID: -1187248577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741c0362624a79b40b26b7af050fee36
+      internalID: 1778796229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc05df28f124a845a9c13b5c328a84a
+      internalID: 2042418561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9f4e91df7988f439e01e2e07dae22c
+      internalID: 1285502646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cf4fc62dd96e043bdc820481e3d6e8
+      internalID: 154064838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 31
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27748f906c92dae4382a437196564182
+      internalID: 943252346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_29
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 80
+        width: 21
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5160657, y: 0.49718857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc4ef1c31849104dadedbf84f17f4b3
+      internalID: 2139644800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_31
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 80
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7272afa83c6b0404296a304e4574ba71
+      internalID: -1575382506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 80
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c57c4f986c6f04b978fbaddca3380b
+      internalID: -1491234934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2065dec9db4bdc4ba18db08ac0328df
+      internalID: 983148930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color
+        Overlays (1)_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebad6c54cd74da241b8cc69046fc7cf9
+      internalID: 1524902979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2476b8847d7f1aa44944eeb5916bfc51
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_0: 1108038127028087365
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_1: 8193562601793172613
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_10: -5738577448419030906
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_11: -7550509763325114580
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_12: 7590241999513582098
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_13: 7548121405085109319
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_14: 8327477882858999023
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_15: -4009461061062119135
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_16: 6528957252018479587
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_17: -1059467146416636316
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_18: -3716658741270020765
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_19: -7404962779318611701
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_2: 6608624598899147453
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_20: 358287640
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_21: 1433452685
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_22: -1187248577
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_23: 1778796229
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_24: 2042418561
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_25: 1285502646
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_26: 154064838
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_27: 943252346
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_28: -888277604
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_29: 2139644800
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_3: 7293500032445402652
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_30: -403057556
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_31: -1575382506
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_32: -1491234934
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_33: 983148930
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_34: 112457792
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_35: -1438587449
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_36: 1363340737
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_37: 1524902979
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_4: -4987818649573980660
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_5: 2609011915826883678
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_6: -7227960065213532282
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_7: -4677297906730909771
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_8: 3550172701479731499
+      Arcade - Space Invaders Part II - Miscellaneous - Game Graphics and Color Overlays (1)_9: -680893262632101331
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
