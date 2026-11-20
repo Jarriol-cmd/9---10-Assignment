@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6076273452799674289}
   - component: {fileID: 4145560463030446277}
   - component: {fileID: 7815548580526262946}
+  - component: {fileID: 8696829761766191353}
   m_Layer: 0
   m_Name: Bugger
   m_TagString: Enemy
@@ -128,6 +129,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bb40047ff7a52f42a1701246474a6d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyScript
+  enemyHealth: 0
   timer: 0
   player: {fileID: 0}
   bullet: {fileID: 8170951164175752109, guid: 7ef6fb890c58b7846b4c50c68fc5763d, type: 3}
+--- !u!61 &8696829761766191353
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230783054184579818}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.58}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.5, y: 0.58}
+  m_EdgeRadius: 0

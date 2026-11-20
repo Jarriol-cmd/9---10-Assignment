@@ -31,7 +31,10 @@ public class BarricadeScript : MonoBehaviour
             }
             
         }
+    }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
         if (collision.gameObject.tag == "Enemy")
         {
             gameObject.transform.localScale = new Vector2(gameObject.transform.localScale.x - 0.1f, gameObject.transform.localScale.y);

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    int enemyHealth;
+    public int enemyHealth;
 
     int count = 0;
     public float timer;
@@ -93,7 +93,7 @@ public class EnemyScript : MonoBehaviour
             }
         }
 
-        if(enemyHealth == 0)
+        if(enemyHealth <= 0)
         {
             Destroy(gameObject);
         }

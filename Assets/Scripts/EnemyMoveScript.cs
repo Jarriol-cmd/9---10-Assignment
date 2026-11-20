@@ -30,9 +30,25 @@ public class EnemyMoveScript : MonoBehaviour
 
         timer -= Time.deltaTime;
 
+
         if (timer <= 0)
         {
             enemy = enemiesToMove[currentEnemy];
+            if (enemyCheck1.transform.position.x >= 9.37f)
+            {
+                  wayToMove = -0.5f;
+
+                  moveOnDown();
+
+                enemyCheck1.transform.position = new Vector2(enemy.transform.position.x + 0.5f, enemy.transform.position.y);
+            }
+
+            if (enemyCheck2.transform.position.x <= -9.37f)
+            {
+                 wayToMove = 0.5f;
+
+                 moveOnDown();
+            }
 
             if (enemy != null)
             {
@@ -57,19 +73,7 @@ public class EnemyMoveScript : MonoBehaviour
             timer = 0.02f;
 
 
-            if (enemyCheck1.transform.position.x >= 9.37f)
-            {
-                wayToMove = -0.5f;
-
-                moveOnDown();
-            }
-
-            if (enemyCheck2.transform.position.x <= -9.37f)
-            {
-                wayToMove = 0.5f;
-
-                moveOnDown();
-            }
+            
 
 
 
@@ -82,8 +86,16 @@ public class EnemyMoveScript : MonoBehaviour
     {
         foreach (GameObject allEnemy in enemiesToMove)
         {
-            allEnemy.transform.position = new Vector2(allEnemy.transform.position.x, allEnemy.transform.position.y - 0.5f);
-            allEnemy.transform.position = new Vector2(allEnemy.transform.position.x + wayToMove, allEnemy.transform.position.y);
+            if(allEnemy != null)
+            {
+                allEnemy.transform.position = new Vector2(allEnemy.transform.position.x, allEnemy.transform.position.y - 0.5f);
+                allEnemy.transform.position = new Vector2(allEnemy.transform.position.x + wayToMove, allEnemy.transform.position.y);
+            }
+
+            else
+            {
+                continue;
+            }
         }
     }
 
