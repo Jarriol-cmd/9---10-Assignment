@@ -20,7 +20,7 @@ public class EnemyScript : MonoBehaviour
         {
             bullet = null;
 
-            enemyHealth = 2;
+            enemyHealth = 3;
         }
 
         else
@@ -95,7 +95,7 @@ public class EnemyScript : MonoBehaviour
 
         if(enemyHealth <= 0)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 

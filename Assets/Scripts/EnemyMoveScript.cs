@@ -1,8 +1,12 @@
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class EnemyMoveScript : MonoBehaviour
 {
+    int checkers = 1;
+    int checkers2 = 65;
 
     public GameObject[] enemiesToMove;
 
@@ -36,18 +40,18 @@ public class EnemyMoveScript : MonoBehaviour
             enemy = enemiesToMove[currentEnemy];
             if (enemyCheck1.transform.position.x >= 9.37f)
             {
-                  wayToMove = -0.5f;
+                wayToMove = -0.5f;
 
-                  moveOnDown();
+                moveOnDown();
 
                 enemyCheck1.transform.position = new Vector2(enemy.transform.position.x + 0.5f, enemy.transform.position.y);
             }
 
             if (enemyCheck2.transform.position.x <= -9.37f)
             {
-                 wayToMove = 0.5f;
+                wayToMove = 0.5f;
 
-                 moveOnDown();
+                moveOnDown();
             }
 
             if (enemy != null)
@@ -72,11 +76,37 @@ public class EnemyMoveScript : MonoBehaviour
 
             timer = 0.02f;
 
+            if(enemyCheck1.activeInHierarchy == false)
+            {
+                enemyCheck1 = enemiesToMove[checkers + 1];
+                checkers++;
 
-            
+                if (enemyCheck2.activeInHierarchy == false)
+                {
+                    checkers = 1;
+                }
 
+                if (enemyCheck1.activeInHierarchy == true)
+                {
+                    checkers = 0;
+                }
+            }
 
+            if (enemyCheck2.activeInHierarchy == false)
+            {
+                enemyCheck2 = enemiesToMove[checkers2 - 1];
+                checkers2--;
 
+                if (enemyCheck2.activeInHierarchy == false)
+                {
+                    checkers2 = 65;
+                }
+
+                if (enemyCheck2.activeInHierarchy == true)
+                {
+                    checkers2 = 0;
+                }
+            }
         }
 
     }
