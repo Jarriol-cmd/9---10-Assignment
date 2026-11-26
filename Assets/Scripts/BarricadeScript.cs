@@ -39,23 +39,15 @@ public class BarricadeScript : MonoBehaviour
             }
             
         }
-    }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
         if (collision.gameObject.tag == "Enemy")
         {
             timesHit++;
         }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Enemy")
-        {
-            timesHit++;
-        }
-    }
+
+
 
     void HitSprite()
     {

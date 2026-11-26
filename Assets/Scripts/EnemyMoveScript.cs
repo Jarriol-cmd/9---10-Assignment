@@ -38,13 +38,12 @@ public class EnemyMoveScript : MonoBehaviour
         if (timer <= 0)
         {
             enemy = enemiesToMove[currentEnemy];
+
             if (enemyCheck1.transform.position.x >= 9.37f)
             {
                 wayToMove = -0.5f;
 
                 moveOnDown();
-
-                enemyCheck1.transform.position = new Vector2(enemy.transform.position.x + 0.5f, enemy.transform.position.y);
             }
 
             if (enemyCheck2.transform.position.x <= -9.37f)
@@ -61,9 +60,17 @@ public class EnemyMoveScript : MonoBehaviour
 
             else
             {
-                enemy = enemiesToMove[currentEnemy + 1];
-            }
+                if(enemy != enemiesToMove[64] && enemy.activeInHierarchy == true)
+                {
+                    enemy = enemiesToMove[currentEnemy + 1];
+                }
 
+                else
+                {
+                    enemy = enemiesToMove[1];
+                }
+                
+            }
 
             currentEnemy++;
 
@@ -86,10 +93,6 @@ public class EnemyMoveScript : MonoBehaviour
                     checkers = 1;
                 }
 
-                if (enemyCheck1.activeInHierarchy == true)
-                {
-                    checkers = 0;
-                }
             }
 
             if (enemyCheck2.activeInHierarchy == false)
@@ -97,14 +100,10 @@ public class EnemyMoveScript : MonoBehaviour
                 enemyCheck2 = enemiesToMove[checkers2 - 1];
                 checkers2--;
 
-                if (enemyCheck2.activeInHierarchy == false)
-                {
-                    checkers2 = 65;
-                }
 
                 if (enemyCheck2.activeInHierarchy == true)
                 {
-                    checkers2 = 0;
+                    checkers2 = 65;
                 }
             }
         }
@@ -116,15 +115,10 @@ public class EnemyMoveScript : MonoBehaviour
     {
         foreach (GameObject allEnemy in enemiesToMove)
         {
-            if(allEnemy != null)
+            if(allEnemy.activeInHierarchy != false)
             {
-                allEnemy.transform.position = new Vector2(allEnemy.transform.position.x, allEnemy.transform.position.y - 0.5f);
-                allEnemy.transform.position = new Vector2(allEnemy.transform.position.x + wayToMove, allEnemy.transform.position.y);
-            }
+                allEnemy.transform.position = new Vector2(allEnemy.transform.position.x + wayToMove, allEnemy.transform.position.y - 0.5f);
 
-            else
-            {
-                continue;
             }
         }
     }

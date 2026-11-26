@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,8 @@ public class PlayerScript : MonoBehaviour
     public GameObject bullet;
 
     public int bulletSpawned;
+
+    public TextMeshProUGUI livesCount;
 
     Rigidbody2D rb;
 
@@ -63,9 +66,16 @@ public class PlayerScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EBullet")
         {
-            Destroy(collision.gameObject);
+            if(collision.gameObject.tag == "EBullet")
+            {
+                Destroy(collision.gameObject);
+            }
+
+            lives--;
+            
+
 
             if (lives == 0)
             {
