@@ -30,6 +30,11 @@ public class EnemyMoveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Manager.freeze == true)
+        {
+            return;
+        }
+
         GameObject enemy;
 
         timer -= Time.deltaTime;

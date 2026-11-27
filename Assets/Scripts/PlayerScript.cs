@@ -1,5 +1,8 @@
 using TMPro;
+using Unity.VectorGraphics;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour
@@ -16,9 +19,14 @@ public class PlayerScript : MonoBehaviour
 
     public TextMeshProUGUI livesCount;
 
+    public GameObject respawnPoint;
+
     Rigidbody2D rb;
 
     int lives = 3;
+
+    int enemyColl = 0;
+    int bulletColl = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,6 +37,10 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Manager.freeze == true)
+        {
+            return;
+        }
 
         if(leftButton.IsPressed())
         {
@@ -66,21 +78,29 @@ public class PlayerScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EBullet")
+        if (collision.gameObject.tag == "Enemy" && enemyColl == 0)
         {
-            if(collision.gameObject.tag == "EBullet")
-            {
-                Destroy(collision.gameObject);
-            }
 
-            lives--;
-            
-
+            enemyColl = 1;
+            LostLife();
 
             if (lives == 0)
             {
                 GameOver();
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "EBullet" && bulletColl == 0)
+        {
+            bulletColl = 1;
+            Destroy(collision.gameObject);
+
+            LostLife();
+
+            
         }
     }
 
@@ -98,8 +118,36 @@ public class PlayerScript : MonoBehaviour
         bulletSpawned = 1;
     }
 
+    void LostLife()
+    {
+        
+
+        lives--;
+
+        if (lives == 0)
+        {
+            GameOver();
+        }
+
+        Manager.freeze = true;
+
+        Invoke("RespawnPlayer", 2);
+    }
+
+    void RespawnPlayer()
+    {
+        gameObject.transform.position = respawnPoint.transform.position;
+
+        enemyColl = 0;
+        bulletColl = 0;
+
+        livesCount.text = "Lives: " + lives;
+        
+        Manager.freeze = false;
+    }
+
     void GameOver()
     {
-
+        Manager.freeze = true;
     }
 }

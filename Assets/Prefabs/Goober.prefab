@@ -132,7 +132,7 @@ MonoBehaviour:
   enemyHealth: 0
   timer: 0
   player: {fileID: 0}
-  bullet: {fileID: 8170951164175752109, guid: 7ef6fb890c58b7846b4c50c68fc5763d, type: 3}
+  bullet: {fileID: 8170951164175752109, guid: 72dfcf683bf3f794cbf44ed306c5ca67, type: 3}
 --- !u!61 &-4676343245930795864
 BoxCollider2D:
   m_ObjectHideFlags: 0

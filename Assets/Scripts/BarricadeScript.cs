@@ -17,6 +17,11 @@ public class BarricadeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Manager.freeze == true)
+        {
+            return;
+        }
+
         if (timesHit >= 5)
         {
             Destroy(gameObject);

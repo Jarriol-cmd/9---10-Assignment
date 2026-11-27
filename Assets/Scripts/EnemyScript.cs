@@ -33,7 +33,12 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameObject.name == "Sprite")
+        if (Manager.freeze == true)
+        {
+            return;
+        }
+
+        if (gameObject.name == "Sprite")
         {
             bullet.GetComponent<EvilBullet>().bullethealth = 2;
         }
@@ -123,7 +128,7 @@ public class EnemyScript : MonoBehaviour
 
             
 
-            if (gameObject.name == "Leaffly" && gameObject.name == "Bugger")
+            if (gameObject.name == "Leaffly")
             {
                 rb.transform.Rotate(new Vector3(0, 0, -45 + (45 * count)));
                 rb.linearVelocity = new Vector2(-5 + (5 * count), -5);

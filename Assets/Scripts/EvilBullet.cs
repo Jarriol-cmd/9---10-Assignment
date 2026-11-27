@@ -8,6 +8,8 @@ public class EvilBullet : MonoBehaviour
 
     public int bullethealth = 0;
 
+    public Animator anim;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,7 +20,18 @@ public class EvilBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Manager.freeze == true)
+        {
+            Destroy(gameObject);
+        }
+
         player = GameObject.FindWithTag("Player").GetComponent<PlayerScript>();
+        anim = GetComponent<Animator>();
+
+        if (gameObject.name == "Sprite Bullet(Clone)" && bullethealth == 1)
+        {
+            anim.SetBool("HitOnce", true);
+        }
 
         timer -= Time.deltaTime;
 

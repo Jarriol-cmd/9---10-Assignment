@@ -17,6 +17,12 @@ public class BulletScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Manager.freeze == true)
+        {
+            Destroy(gameObject);
+            player.bulletSpawned = 0;
+        }
+
         player = GameObject.FindWithTag("Player").GetComponent<PlayerScript>();
         timer -= Time.deltaTime;
 
